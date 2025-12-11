@@ -6,7 +6,7 @@ SRC			:=	src/main.cpp \
 
 # Variables
 CC			:=	c++
-CFLAGS		:=	-Wall -Werror -Wextra -std=c++98 -Iincludes
+CFLAGS		:=	-Wall -Werror -Wextra -std=c++98 -Iincludes -O2 -g3
 
 # Makefile
 all			:	${EXE}
